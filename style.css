@@ -1,0 +1,74 @@
+@font-face{
+  font-family: Lavanderia;
+  src: url(fonts/Lavanderia Regular.otf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+}
+
+/********************************** header navigation **********************************/
+#header-navigation{
+  background: rgba(236, 240, 241, 0.8);
+}
+
+#header-navigation .user{
+    padding: 5px 13px;
+    background: #de6d6e;
+    border-radius: 3px;
+}
+
+
+
+/******************************** bg area ********************************/
+#bg-area{
+  background: url(img/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#bg-area .alpha{
+  background: rgba(0,0,0,.5);
+}
+.bg-content{
+  padding: 350px 0 100px;
+}
+
+/******************************** about-area ********************************/
+#about-area{
+
+}
+.about-top p{
+  font-size: 16px;
+}
+.about-col img{
+  transition: .5s;
+  cursor: pointer;
+}
+.about-col img:hover{
+  transform: scale(1.2);
+}
+
+/*********************************** service-area ***********************************/
+#service-area p{
+  font-size: 16px;
+}
+
+
+/************************************ footer-area ************************************/
+#footer-area{
+  background: #282626;
+}
+#footer-area a,h3,p{
+  color: #999;
+}
+#footer-area .social-icon a i{
+  font-size: 25px;
+  background: #999;
+  color: #282626;
+  height: 50px;
+  width: 50px;
+  padding: 12px;
+  border-radius: 50%
+}
